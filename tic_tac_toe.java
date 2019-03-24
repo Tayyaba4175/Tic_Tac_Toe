@@ -34,6 +34,7 @@ public class tic_tac_toe {
 	private JButton btnNewButton;//btn9
 	private JTextField txtcount_X;
 	private JTextField txtcount_o;
+	private JTextField txtTayyabaSuleman;
 	/**
 	 * Launch the application.
 	 */
@@ -94,53 +95,53 @@ public class tic_tac_toe {
     	 if(b1==("X") && b2==("X") && b3==("X"))
     	 {
     		 
-    		 JOptionPane.showMessageDialog(frame,"player x wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player x wins and O loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //xcount++;
     		 gameScore_x();
     	 }
     	 
     	 else if(b4==("X") && b5==("X") && b6== ("X"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player x wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player x wins and O loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //xcount++;
     		 gameScore_x();
     	 }
     	 
     	 else if(b7==("X") && b8==("X") && b9== ("X"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player x wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player x wins and O loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //xcount++;
     		 gameScore_x();
     	 }
     	 
     	 else if(b1==("X") && b5==("X") && b9== ("X"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player x wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player x wins and O loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //xcount++;
     		 gameScore_x();
     	 }
     	 
     	 else if(b7==("X") && b5==("X") && b3== ("X"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player x wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player x wins and O loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //xcount++;
     		 gameScore_x();
     	 }
     	 else if(b1==("X") && b4==("X") && b7== ("X"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player x wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player x wins and O loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //xcount++;
     		 gameScore_x();
     	 }
     	 else if(b2==("X") && b5==("X") && b8== ("X"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player x wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player x wins and O loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //xcount++;
     		 gameScore_x();
     	 }
     	 else if(b3==("X") && b6==("X") && b9== ("X"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player x wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player x wins and O loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //xcount++;
     		 gameScore_x();
     	 }
@@ -149,59 +150,64 @@ public class tic_tac_toe {
     	 
     	 else  if(b1==("O") && b2==("O") && b3== ("O"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player o wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player o wins and X loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //ocount++;
     		 gameScore_o();
     	 }
     	 
     	 else if(b4==("O") && b5==("O") && b6== ("O"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player o wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player o wins and X loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //ocount++;
     		 gameScore_o();
     	 }
     	 
     	 else if(b7==("O") && b8==("O") && b9== ("O"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player o wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player o wins and X loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //ocount++;
     		 gameScore_o();
     	 }
     	 
     	 else if(b1==("O") && b5==("O") && b9== ("O"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player o wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player o wins and X loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //ocount++;
     		 gameScore_o();
     	 }
     	 
     	 else if(b7==("O") && b5==("O") && b3== ("O"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player o wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player o wins and X loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //ocount++;
     		 gameScore_o();
     	 }
     	 else if(b1==("O") && b4==("O") && b7== ("O"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player o wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player o wins and X loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //ocount++;
     		 gameScore_o();
     	 }
     	 else if(b2==("O") && b5==("O") && b8== ("O"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player o wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player o wins and X loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //ocount++;
     		 gameScore_o();
     	 }
     	 else if(b3==("O") && b6==("O") && b9== ("O"))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"player o wins","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"player o wins and X loses","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     		 //ocount++;
     		 gameScore_o();
     	 }
-    	/* else 
+    	/*else if(b1!=("") && b2!=("") && b3!=("") || b4!=("") && b5!=("") && b6!= ("")||
+    	  b7!=(" ") && b8!=(" ") && b9!= (" ")||b1!=(" ") && b5!=(" ") && b9!= (" ") ||b7!=(" ") && b5!=(" ") && b3!= (" ")|| 
+    	  b1!=(" ") && b4!=(" ") && b7!= (" ")|| b2!=(" ") && b5!=(" ") && b8!= (" ")|| b3!=(" ") && b6!=(" ") && b9!= (" ") ||
+    	  b1!=(" ") && b2!=(" ") && b3!= (" ") || b4!=(" ") && b5!=(" ") && b6!= (" ") || b7!=(" ") && b8!=(" ") && b9!= (" ") ||
+    	  b1!=(" ") && b5!=(" ") && b9!= (" ")|| b7!=(" ") && b5!=(" ") && b3!= (" ")|| b1!=(" ") && b4!=(" ") && b7!= (" ")||
+    	  b2!=(" ") && b5!=(" ") && b8!= (" ")|| b3!=(" ") && b6!=(" ") && b9!= (" "))
     	 {
-    		 JOptionPane.showMessageDialog(frame,"DRAW","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
+    		 JOptionPane.showMessageDialog(frame,"No one wins the game DRAW","tic tac toe",JOptionPane.INFORMATION_MESSAGE);
     	 }*/
     
      }
@@ -307,20 +313,49 @@ public class tic_tac_toe {
 		panel.add(panel_2);
 		panel_2.setLayout(new BorderLayout(0, 0));
 		
-		JLabel lblPlayerx = new JLabel("playerX");
-		lblPlayerx.setFont(new Font("Tahoma", Font.PLAIN, 25));
-		panel_2.add(lblPlayerx, BorderLayout.CENTER);
+		txtTayyabaSuleman = new JTextField();
+		txtTayyabaSuleman.setForeground(Color.GREEN);
+		txtTayyabaSuleman.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		txtTayyabaSuleman.setText("TAYYABA SULEMAN");
+		panel_2.add(txtTayyabaSuleman, BorderLayout.CENTER);
+		txtTayyabaSuleman.setColumns(10);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBorder(new LineBorder(new Color(0, 0, 0), 2));
 		panel.add(panel_1);
 		panel_1.setLayout(new BorderLayout(0, 0));
 		
-		txtcount_X = new JTextField();
-		txtcount_X.setFont(new Font("Tahoma", Font.PLAIN, 25));
-		txtcount_X.setText("0");
-		panel_1.add(txtcount_X, BorderLayout.CENTER);
-		txtcount_X.setColumns(10);
+		JButton btnReset = new JButton("Reset");
+		btnReset.setForeground(Color.BLUE);
+		panel_1.add(btnReset, BorderLayout.SOUTH);
+		btnReset.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			      btnButton.setText(null);//button1
+			      btnButton_1.setText(null);//button2
+			      btnButton_2.setText(null);//button3
+			      btnButton_3.setText(null);//button4
+			      btnButton_4.setText(null);//button5
+			      btnButton_5.setText(null);//button6
+			      btnButton_6.setText(null);//button7
+			      btnButton_7.setText(null);//button8
+			      btnNewButton.setText(null);//button9
+			}
+		});
+		btnReset.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		
+		JButton btnExit = new JButton("Exit");
+		btnExit.setForeground(Color.RED);
+		panel_1.add(btnExit, BorderLayout.NORTH);
+		btnExit.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		btnExit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+		              frame=new JFrame("Exit");
+		              if(JOptionPane.showConfirmDialog(frame,"confirm if you want to exit game",
+		            		  "tic tac toe", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION);
+		              System.exit(0);
+		              
+			}
+		});
 		
 		JPanel panel_6 = new JPanel();
 		panel_6.setBorder(new LineBorder(new Color(0, 0, 0), 2));
@@ -409,20 +444,22 @@ public class tic_tac_toe {
 		panel.add(panel_13);
 		panel_13.setLayout(new BorderLayout(0, 0));
 		
-		JLabel lblPlayero = new JLabel("PlayerO");
-		lblPlayero.setFont(new Font("Tahoma", Font.PLAIN, 25));
-		panel_13.add(lblPlayero, BorderLayout.CENTER);
+		JLabel lblPlayerx = new JLabel("playerX");
+		lblPlayerx.setForeground(Color.RED);
+		panel_13.add(lblPlayerx, BorderLayout.CENTER);
+		lblPlayerx.setFont(new Font("Tahoma", Font.PLAIN, 25));
 		
 		JPanel panel_14 = new JPanel();
 		panel_14.setBorder(new LineBorder(new Color(0, 0, 0), 2));
 		panel.add(panel_14);
 		panel_14.setLayout(new BorderLayout(0, 0));
 		
-		txtcount_o = new JTextField();
-		txtcount_o.setFont(new Font("Tahoma", Font.PLAIN, 25));
-		txtcount_o.setText("0");
-		panel_14.add(txtcount_o, BorderLayout.CENTER);
-		txtcount_o.setColumns(10);
+		txtcount_X = new JTextField();
+		txtcount_X.setForeground(Color.RED);
+		panel_14.add(txtcount_X, BorderLayout.CENTER);
+		txtcount_X.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		txtcount_X.setText("0");
+		txtcount_X.setColumns(10);
 		
 		JPanel panel_11 = new JPanel();
 		panel_11.setBorder(new LineBorder(new Color(0, 0, 0), 2));
@@ -509,40 +546,22 @@ public class tic_tac_toe {
 		panel.add(panel_9);
 		panel_9.setLayout(new BorderLayout(0, 0));
 		
-		JButton btnExit = new JButton("Exit");
-		btnExit.setFont(new Font("Tahoma", Font.PLAIN, 25));
-		btnExit.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-		              frame=new JFrame("Exit");
-		              if(JOptionPane.showConfirmDialog(frame,"confirm if you want to exit game",
-		            		  "tic tac toe", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION);
-		              System.exit(0);
-		              
-			}
-		});
-		panel_9.add(btnExit, BorderLayout.CENTER);
+		JLabel lblPlayero = new JLabel("PlayerO");
+		lblPlayero.setForeground(Color.BLUE);
+		panel_9.add(lblPlayero, BorderLayout.CENTER);
+		lblPlayero.setFont(new Font("Tahoma", Font.PLAIN, 25));
 		
 		JPanel panel_7 = new JPanel();
 		panel_7.setBorder(new LineBorder(new Color(0, 0, 0), 2));
 		panel.add(panel_7);
 		panel_7.setLayout(new BorderLayout(0, 0));
 		
-		JButton btnReset = new JButton("Reset");
-		btnReset.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			      btnButton.setText(null);//button1
-			      btnButton_1.setText(null);//button2
-			      btnButton_2.setText(null);//button3
-			      btnButton_3.setText(null);//button4
-			      btnButton_4.setText(null);//button5
-			      btnButton_5.setText(null);//button6
-			      btnButton_6.setText(null);//button7
-			      btnButton_7.setText(null);//button8
-			      btnNewButton.setText(null);//button9
-			}
-		});
-		btnReset.setFont(new Font("Tahoma", Font.PLAIN, 25));
-		panel_7.add(btnReset, BorderLayout.CENTER);
+		txtcount_o = new JTextField();
+		txtcount_o.setForeground(Color.BLUE);
+		panel_7.add(txtcount_o, BorderLayout.CENTER);
+		txtcount_o.setFont(new Font("Tahoma", Font.PLAIN, 25));
+		txtcount_o.setText("0");
+		txtcount_o.setColumns(10);
 	}
 
 }
